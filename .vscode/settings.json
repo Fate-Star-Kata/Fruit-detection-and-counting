@@ -1,0 +1,43 @@
+{
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  // 个人配置相关可自己移除
+  "oxc.enable": true,
+  "eslint.format.enable": true,
+  "editor.stablePeek": true,
+  "diffEditor.codeLens": true,
+  "editor.minimap.autohide": "mouseover",
+  "files.trimTrailingWhitespace": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.list.scrollByPage": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.fileNesting.enabled": true,
+  //!重要 vsc根文件可折叠，可以自己添加修改 不建议删除
+  "explorer.fileNesting.patterns": {
+    "vite.config.*": "vitest.config.*, cypress.config.*, vite.config.*.ts,vite.config.*.js, playwright.config.*, jsconfig*, vercel.json",
+    "tsconfig.json": "tsconfig.*.json, env.d.ts, *.d.ts",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .oxlint*, oxlint*, .prettier*, prettier*, .editorconfig, tailwind.config.js, postcss.config.js, babel.config.js, webpack.config.js",
+    "configuration": "*.config.js, *.config.ts, *.config.mjs, *.config.cjs, *.config.json",
+    ".env": ".env.*",
+    "README.md": "favicon.*, LICENSE, index.html,Project Specifications.md",
+    ".gitignore": ".npmrc"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

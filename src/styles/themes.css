@@ -1,0 +1,241 @@
+/* 主题色定义 - 5个主题色方案 */
+
+/* 默认主题 - 蓝色 */
+:root,
+.theme-blue {
+  --color-primary-50: 239 246 255;
+  --color-primary-100: 219 234 254;
+  --color-primary-200: 191 219 254;
+  --color-primary-300: 147 197 253;
+  --color-primary-400: 96 165 250;
+  --color-primary-500: 59 130 246;
+  --color-primary-600: 37 99 235;
+  --color-primary-700: 29 78 216;
+  --color-primary-800: 30 64 175;
+  --color-primary-900: 30 58 138;
+  --color-primary-950: 23 37 84;
+
+  --color-secondary-50: 248 250 252;
+  --color-secondary-100: 241 245 249;
+  --color-secondary-200: 226 232 240;
+  --color-secondary-300: 203 213 225;
+  --color-secondary-400: 148 163 184;
+  --color-secondary-500: 100 116 139;
+  --color-secondary-600: 71 85 105;
+  --color-secondary-700: 51 65 85;
+  --color-secondary-800: 30 41 59;
+  --color-secondary-900: 15 23 42;
+  --color-secondary-950: 2 6 23;
+
+  --color-accent-50: 254 242 242;
+  --color-accent-100: 254 226 226;
+  --color-accent-200: 254 202 202;
+  --color-accent-300: 252 165 165;
+  --color-accent-400: 248 113 113;
+  --color-accent-500: 239 68 68;
+  --color-accent-600: 220 38 38;
+  --color-accent-700: 185 28 28;
+  --color-accent-800: 153 27 27;
+  --color-accent-900: 127 29 29;
+  --color-accent-950: 69 10 10;
+}
+
+/* 主题1 - 绿色生态 */
+.theme-green {
+  --color-primary-50: 240 253 244;
+  --color-primary-100: 220 252 231;
+  --color-primary-200: 187 247 208;
+  --color-primary-300: 134 239 172;
+  --color-primary-400: 74 222 128;
+  --color-primary-500: 34 197 94;
+  --color-primary-600: 22 163 74;
+  --color-primary-700: 21 128 61;
+  --color-primary-800: 22 101 52;
+  --color-primary-900: 20 83 45;
+  --color-primary-950: 5 46 22;
+
+  --color-secondary-50: 250 250 249;
+  --color-secondary-100: 245 245 244;
+  --color-secondary-200: 231 229 228;
+  --color-secondary-300: 214 211 209;
+  --color-secondary-400: 168 162 158;
+  --color-secondary-500: 120 113 108;
+  --color-secondary-600: 87 83 78;
+  --color-secondary-700: 68 64 60;
+  --color-secondary-800: 41 37 36;
+  --color-secondary-900: 28 25 23;
+  --color-secondary-950: 12 10 9;
+
+  --color-accent-50: 255 251 235;
+  --color-accent-100: 254 243 199;
+  --color-accent-200: 253 230 138;
+  --color-accent-300: 252 211 77;
+  --color-accent-400: 251 191 36;
+  --color-accent-500: 245 158 11;
+  --color-accent-600: 217 119 6;
+  --color-accent-700: 180 83 9;
+  --color-accent-800: 146 64 14;
+  --color-accent-900: 120 53 15;
+  --color-accent-950: 69 26 3;
+}
+
+/* 主题2 - 紫色梦幻 */
+.theme-purple {
+  --color-primary-50: 250 245 255;
+  --color-primary-100: 243 232 255;
+  --color-primary-200: 233 213 255;
+  --color-primary-300: 216 180 254;
+  --color-primary-400: 196 181 253;
+  --color-primary-500: 168 85 247;
+  --color-primary-600: 147 51 234;
+  --color-primary-700: 126 34 206;
+  --color-primary-800: 107 33 168;
+  --color-primary-900: 88 28 135;
+  --color-primary-950: 59 7 100;
+
+  --color-secondary-50: 249 250 251;
+  --color-secondary-100: 243 244 246;
+  --color-secondary-200: 229 231 235;
+  --color-secondary-300: 209 213 219;
+  --color-secondary-400: 156 163 175;
+  --color-secondary-500: 107 114 128;
+  --color-secondary-600: 75 85 99;
+  --color-secondary-700: 55 65 81;
+  --color-secondary-800: 31 41 55;
+  --color-secondary-900: 17 24 39;
+  --color-secondary-950: 3 7 18;
+
+  --color-accent-50: 253 244 255;
+  --color-accent-100: 250 232 255;
+  --color-accent-200: 245 208 254;
+  --color-accent-300: 240 171 252;
+  --color-accent-400: 232 121 249;
+  --color-accent-500: 217 70 239;
+  --color-accent-600: 192 38 211;
+  --color-accent-700: 162 28 175;
+  --color-accent-800: 134 25 143;
+  --color-accent-900: 112 26 117;
+  --color-accent-950: 74 4 78;
+}
+
+/* 主题3 - 橙色活力 */
+.theme-orange {
+  --color-primary-50: 255 247 237;
+  --color-primary-100: 255 237 213;
+  --color-primary-200: 254 215 170;
+  --color-primary-300: 253 186 116;
+  --color-primary-400: 251 146 60;
+  --color-primary-500: 249 115 22;
+  --color-primary-600: 234 88 12;
+  --color-primary-700: 194 65 12;
+  --color-primary-800: 154 52 18;
+  --color-primary-900: 124 45 18;
+  --color-primary-950: 67 20 7;
+
+  --color-secondary-50: 250 250 250;
+  --color-secondary-100: 245 245 245;
+  --color-secondary-200: 229 229 229;
+  --color-secondary-300: 212 212 212;
+  --color-secondary-400: 163 163 163;
+  --color-secondary-500: 115 115 115;
+  --color-secondary-600: 82 82 82;
+  --color-secondary-700: 64 64 64;
+  --color-secondary-800: 38 38 38;
+  --color-secondary-900: 23 23 23;
+  --color-secondary-950: 10 10 10;
+
+  --color-accent-50: 254 242 242;
+  --color-accent-100: 254 226 226;
+  --color-accent-200: 254 202 202;
+  --color-accent-300: 252 165 165;
+  --color-accent-400: 248 113 113;
+  --color-accent-500: 239 68 68;
+  --color-accent-600: 220 38 38;
+  --color-accent-700: 185 28 28;
+  --color-accent-800: 153 27 27;
+  --color-accent-900: 127 29 29;
+  --color-accent-950: 69 10 10;
+}
+
+/* 主题4 - 青色科技 */
+.theme-cyan {
+  --color-primary-50: 236 254 255;
+  --color-primary-100: 207 250 254;
+  --color-primary-200: 165 243 252;
+  --color-primary-300: 103 232 249;
+  --color-primary-400: 34 211 238;
+  --color-primary-500: 6 182 212;
+  --color-primary-600: 8 145 178;
+  --color-primary-700: 14 116 144;
+  --color-primary-800: 21 94 117;
+  --color-primary-900: 22 78 99;
+  --color-primary-950: 8 51 68;
+
+  --color-secondary-50: 248 250 252;
+  --color-secondary-100: 241 245 249;
+  --color-secondary-200: 226 232 240;
+  --color-secondary-300: 203 213 225;
+  --color-secondary-400: 148 163 184;
+  --color-secondary-500: 100 116 139;
+  --color-secondary-600: 71 85 105;
+  --color-secondary-700: 51 65 85;
+  --color-secondary-800: 30 41 59;
+  --color-secondary-900: 15 23 42;
+  --color-secondary-950: 2 6 23;
+
+  --color-accent-50: 240 253 250;
+  --color-accent-100: 204 251 241;
+  --color-accent-200: 153 246 228;
+  --color-accent-300: 94 234 212;
+  --color-accent-400: 45 212 191;
+  --color-accent-500: 20 184 166;
+  --color-accent-600: 13 148 136;
+  --color-accent-700: 15 118 110;
+  --color-accent-800: 17 94 89;
+  --color-accent-900: 19 78 74;
+  --color-accent-950: 4 47 46;
+}
+
+/* 主题5 - 粉色浪漫 */
+.theme-pink {
+  --color-primary-50: 253 242 248;
+  --color-primary-100: 252 231 243;
+  --color-primary-200: 251 207 232;
+  --color-primary-300: 249 168 212;
+  --color-primary-400: 244 114 182;
+  --color-primary-500: 236 72 153;
+  --color-primary-600: 219 39 119;
+  --color-primary-700: 190 24 93;
+  --color-primary-800: 157 23 77;
+  --color-primary-900: 131 24 67;
+  --color-primary-950: 80 7 36;
+
+  --color-secondary-50: 250 250 250;
+  --color-secondary-100: 245 245 245;
+  --color-secondary-200: 229 229 229;
+  --color-secondary-300: 212 212 212;
+  --color-secondary-400: 163 163 163;
+  --color-secondary-500: 115 115 115;
+  --color-secondary-600: 82 82 82;
+  --color-secondary-700: 64 64 64;
+  --color-secondary-800: 38 38 38;
+  --color-secondary-900: 23 23 23;
+  --color-secondary-950: 10 10 10;
+
+  --color-accent-50: 255 241 242;
+  --color-accent-100: 255 228 230;
+  --color-accent-200: 254 205 211;
+  --color-accent-300: 253 164 175;
+  --color-accent-400: 251 113 133;
+  --color-accent-500: 244 63 94;
+  --color-accent-600: 225 29 72;
+  --color-accent-700: 190 18 60;
+  --color-accent-800: 159 18 57;
+  --color-accent-900: 136 19 55;
+  --color-accent-950: 76 5 25;
+}
+
+/* 平滑过渡动画 */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}

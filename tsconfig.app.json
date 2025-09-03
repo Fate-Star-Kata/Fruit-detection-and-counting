@@ -1,0 +1,33 @@
+{
+  "$schema": "./tsconfig",
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    /* Linting */
+    "strict": true,
+
+    // declare variables use?
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "views/*": ["src/views/*"],
+      "stores/*": ["src/stores/*"],
+      "utils/*": ["src/utils/*"],
+      "assets/*": ["src/assets/*"],
+      "types/*": ["src/types/*"],
+      "constants/*": ["src/constants/*"],
+      "services/*": ["src/services/*"],
+      "icon/*": ["src/components/icon/*"],
+    },
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

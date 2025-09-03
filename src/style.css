@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: all;
+}
+
+/* 让元素能使用高度百分比 */
+html,body,#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

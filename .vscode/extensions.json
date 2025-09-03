@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "oxc-project.oxc-vscode",
+    "steoates.autoimport",
+    "esbenp.prettier-vscode",
+    "ionutvmi.path-autocomplete",
+    "christian-kohler.path-intellisense",
+    "ryanluker.vscode-eslint-disable-snippets"
+  ]
+}
