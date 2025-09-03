@@ -24,6 +24,7 @@ declare module 'vue-router/auto-routes' {
     '/admin/Content/': RouteRecordInfo<'/admin/Content/', '/admin/Content', Record<never, never>, Record<never, never>>,
     '/admin/dashboard/': RouteRecordInfo<'/admin/dashboard/', '/admin/dashboard', Record<never, never>, Record<never, never>>,
     '/admin/files/': RouteRecordInfo<'/admin/files/', '/admin/files', Record<never, never>, Record<never, never>>,
+    '/admin/history/': RouteRecordInfo<'/admin/history/', '/admin/history', Record<never, never>, Record<never, never>>,
     '/admin/knowledge/': RouteRecordInfo<'/admin/knowledge/', '/admin/knowledge', Record<never, never>, Record<never, never>>,
     '/admin/log/': RouteRecordInfo<'/admin/log/', '/admin/log', Record<never, never>, Record<never, never>>,
     '/admin/notice/': RouteRecordInfo<'/admin/notice/', '/admin/notice', Record<never, never>, Record<never, never>>,
@@ -40,9 +41,12 @@ declare module 'vue-router/auto-routes' {
     '/templates/knowledge': RouteRecordInfo<'/templates/knowledge', '/templates/knowledge', Record<never, never>, Record<never, never>>,
     '/templates/stats': RouteRecordInfo<'/templates/stats', '/templates/stats', Record<never, never>, Record<never, never>>,
     '/templates/websocket': RouteRecordInfo<'/templates/websocket', '/templates/websocket', Record<never, never>, Record<never, never>>,
+    '/user/about/': RouteRecordInfo<'/user/about/', '/user/about', Record<never, never>, Record<never, never>>,
     '/user/history/': RouteRecordInfo<'/user/history/', '/user/history', Record<never, never>, Record<never, never>>,
     '/user/knowledge/': RouteRecordInfo<'/user/knowledge/', '/user/knowledge', Record<never, never>, Record<never, never>>,
     '/user/notifications/': RouteRecordInfo<'/user/notifications/', '/user/notifications', Record<never, never>, Record<never, never>>,
+    '/user/recognize/': RouteRecordInfo<'/user/recognize/', '/user/recognize', Record<never, never>, Record<never, never>>,
+    '/user/recognize/realTime': RouteRecordInfo<'/user/recognize/realTime', '/user/recognize/realTime', Record<never, never>, Record<never, never>>,
     '/user/system_film/': RouteRecordInfo<'/user/system_film/', '/user/system_film', Record<never, never>, Record<never, never>>,
     '/userInfo/': RouteRecordInfo<'/userInfo/', '/userInfo', Record<never, never>, Record<never, never>>,
   }
@@ -80,6 +84,10 @@ declare module 'vue-router/auto-routes' {
     }
     'src/pages/admin/files/index.vue': {
       routes: '/admin/files/'
+      views: never
+    }
+    'src/pages/admin/history/index.vue': {
+      routes: '/admin/history/'
       views: never
     }
     'src/pages/admin/knowledge/index.vue': {
@@ -146,6 +154,10 @@ declare module 'vue-router/auto-routes' {
       routes: '/templates/websocket'
       views: never
     }
+    'src/pages/user/about/index.vue': {
+      routes: '/user/about/'
+      views: never
+    }
     'src/pages/user/history/index.vue': {
       routes: '/user/history/'
       views: never
@@ -156,6 +168,14 @@ declare module 'vue-router/auto-routes' {
     }
     'src/pages/user/notifications/index.vue': {
       routes: '/user/notifications/'
+      views: never
+    }
+    'src/pages/user/recognize/index.vue': {
+      routes: '/user/recognize/'
+      views: never
+    }
+    'src/pages/user/recognize/realTime.vue': {
+      routes: '/user/recognize/realTime'
       views: never
     }
     'src/pages/user/system_film/index.vue': {

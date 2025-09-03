@@ -6,20 +6,20 @@
       <div class="text-center space-y-6 mb-8">
         <RevealMotion :delay="0">
           <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
-            赫兹系统
+            水果识别计数系统
           </h1>
         </RevealMotion>
 
         <RevealMotion :delay="0.1">
           <p class="text-lg md:text-xl opacity-70">
-            项目介绍
+            基于YOLO深度学习的智能水果检测与计数平台
           </p>
         </RevealMotion>
 
         <RevealMotion :delay="0.2">
           <div class="flex items-center justify-center gap-3 pt-2">
-            <a class="btn btn-primary rounded-full px-6">立即使用</a>
-            <a class="btn btn-outline rounded-full px-6">了解更多</a>
+            <a class="btn btn-primary rounded-full px-6">开始检测</a>
+            <a class="btn btn-outline rounded-full px-6">功能介绍</a>
           </div>
         </RevealMotion>
       </div>
@@ -56,7 +56,7 @@
 import { h, defineComponent, onMounted, onBeforeUnmount, ref, computed } from "vue";
 import { Motion } from "motion-v";
 
-const footerText = import.meta.env.VITE_APP_FOOTER || "版权所有 © 2025 HZSYSTEM";
+const footerText = import.meta.env.VITE_APP_FOOTER || "版权所有 © 2025 水果识别计数系统";
 
 type RevealProps = { delay?: number };
 const RevealMotion = defineComponent<RevealProps>({
@@ -113,14 +113,14 @@ const RevealMotion = defineComponent<RevealProps>({
   },
 });
 
-// 文案内容：保持中性，便于替换
+// 水果识别计数系统功能特点
 const features = [
-  { title: "极简设计", desc: "去除干扰，聚焦信息与层次。" },
-  { title: "响应布局", desc: "桌面/移动端一致的体验。" },
-  { title: "即插即用", desc: "替换文字与链接即可上线。" },
-  { title: "轻量动画", desc: "只在需要处出现的动效。" },
-  { title: "DaisyUI 组件", desc: "开箱即用的优雅样式。" },
-  { title: "Tailwind 原子化", desc: "一致、可维护的样式体系。" },
+  { title: "智能识别", desc: "基于YOLO算法的高精度水果检测。" },
+  { title: "实时计数", desc: "快速准确的水果数量统计分析。" },
+  { title: "多种水果", desc: "支持苹果、橙子、香蕉等多种水果。" },
+  { title: "批量处理", desc: "支持图片批量上传和检测处理。" },
+  { title: "结果导出", desc: "检测结果可视化展示和数据导出。" },
+  { title: "响应式设计", desc: "适配桌面端、平板和移动设备。" },
 ];
 </script>
 

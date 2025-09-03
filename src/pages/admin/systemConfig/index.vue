@@ -2,6 +2,8 @@
 import { ref } from 'vue'
 import { Motion } from 'motion-v'
 import EmailConfig from 'components/pages/admin/systemConfig/EmailConfig.vue'
+import ModelSettings from 'components/pages/admin/systemConfig/ModelSettings.vue'
+import ModelPerformance from 'components/pages/admin/systemConfig/ModelPerformance.vue'
 
 // 动画配置
 const pageVariants = {
@@ -19,6 +21,16 @@ const tabList = [
     key: 'emailConfig',
     label: '邮箱配置',
     icon: 'Message'
+  },
+  {
+    key: 'modelSettings',
+    label: '模型设置',
+    icon: 'Setting'
+  },
+  {
+    key: 'modelPerformance',
+    label: '模型性能',
+    icon: 'TrendCharts'
   }
 ]
 
@@ -55,6 +67,12 @@ const handleTabChange = (tabKey: string) => {
         :transition="{ duration: 0.6, delay: 0.2 }" class="config-content">
         <!-- 邮箱配置 -->
         <EmailConfig v-if="activeTab === 'emailConfig'" />
+        
+        <!-- 模型设置 -->
+        <ModelSettings v-if="activeTab === 'modelSettings'" />
+        
+        <!-- 模型性能 -->
+        <ModelPerformance v-if="activeTab === 'modelPerformance'" />
       </Motion>
     </el-card>
   </Motion>
