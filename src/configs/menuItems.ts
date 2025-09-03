@@ -136,6 +136,7 @@ export const adminMenuItems: AdminHeader[] = [
     title: "知识管理",
     icon: "Compass",
     path: "/admin/knowledge",
+    hide: true,
   },
   {
     id: "6",
